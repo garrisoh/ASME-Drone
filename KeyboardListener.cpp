@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <SFML/Window/Keyboard.hpp>
-#include "drone.h"
+#include "Drone.h"
 
 
 bool emergency = false;
