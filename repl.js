@@ -1,5 +1,6 @@
 var arDrone = require('ar-drone');
-var spawn = require("child_process").spawn;
+//var spawn = require("child_process").spawn;
 
 var client  = arDrone.createClient();
+//client.disableEmergency();
 client.createRepl();
